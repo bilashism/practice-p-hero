@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.p-1 {
+  padding: 1rem;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.w-50 {
+  width: 50%;
+}
+.title-4 {
+  font-size: 4rem;
+}
+.title-3 {
+  font-size: 3rem;
+}
+.text-orange {
+  color: orange;
+}
+.btn-gradient {
+  display: inline-flex;
+  color: white;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.full-stack,
+.baby-web {
+  padding: 3rem;
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+.full-stack {
+  border-left-color: red;
+}
+.baby-web {
+  border-left-color: blue;
+}
+.full-stack h2,
+.baby-web h2 {
+  font-size: 2.5rem;
+}
+.hero {
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.dream {
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.expericece {
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+}
