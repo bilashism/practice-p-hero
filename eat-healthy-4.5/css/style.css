@@ -118,9 +118,11 @@ img {
 
 /*#region - start of - about me section */
 .about-bg {
-  background-image: url("../images//shapes/7.png");
+  background-image: url("../images//shapes/7.png"),
+    url("../images/shapes/about-bg-2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover, auto;
+  background-position: left top, 105% 120%;
 }
 .about-image {
   max-width: 338px;
