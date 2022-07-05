@@ -25,6 +25,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .section-spacer {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -34,6 +37,7 @@ img {
 }
 .d-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .h-100 {
   height: 100%;
@@ -53,15 +57,29 @@ img {
 .align-items-center {
   align-items: center;
 }
-.col-50 {
+.w-50 {
   width: 50%;
 }
+.w-100 {
+  width: 100%;
+}
+
 .p-2 {
   padding: 2rem;
+}
+.pb-2 {
+  padding-bottom: 2rem;
 }
 .py-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.b-radius-lg {
+  border-radius: 2.25rem;
 }
 .m-0 {
   margin: 0;
@@ -100,6 +118,7 @@ img {
   color: #575757;
   line-height: 1.3;
   letter-spacing: -0.085rem;
+  margin-right: -1rem;
 }
 .header .hero-image {
   transform: scale(1.25);
@@ -138,3 +157,33 @@ img {
   color: #707070;
 }
 /*#endregion - end of - about me section */
+
+/*#region - start of - recipe section */
+.recipe-item {
+  padding: 1.5rem;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+.recipe-image {
+  border-radius: 2rem;
+}
+.recipe .title {
+  font-size: 36px;
+  line-height: 44px;
+}
+.recipe .lead {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 25px;
+}
+.recipe-item h3 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.recipe-item p {
+  font-size: 18px;
+  line-height: 30px;
+}
+/*#endregion - end of - recipe section */
