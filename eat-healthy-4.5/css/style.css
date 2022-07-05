@@ -66,7 +66,12 @@ img {
 .w-100 {
   width: 100%;
 }
-
+.bg-dark {
+  background-color: #0b0d17;
+}
+.text-gray {
+  color: #5b5b5b;
+}
 .p-2 {
   padding: 2rem;
 }
@@ -209,3 +214,15 @@ img {
   /* color: #18191f; */
 }
 /*#endregion - end of - recipe section */
+
+/*#region - start of - footer */
+.footer .title {
+  font-size: 2rem;
+}
+.footer .info {
+  font-size: 1rem;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+  color: #fff;
+}
+/*#endregion - end of - footer */
