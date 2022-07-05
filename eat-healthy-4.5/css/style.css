@@ -216,6 +216,9 @@ img {
 /*#endregion - end of - recipe section */
 
 /*#region - start of - footer */
+.footer {
+  margin-top: 6rem;
+}
 .footer .title {
   font-size: 2rem;
 }
